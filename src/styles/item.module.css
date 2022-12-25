@@ -1,0 +1,46 @@
+.article{
+    display: flex;
+    gap: 60px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E6E5E5;
+    
+}
+.div{
+    margin-bottom: 24px;
+}
+
+.imgANDinfos{
+    display: flex;
+    gap: 30px;
+}
+
+.img{
+    height: 64px;
+    width: 64px;
+}
+
+.inputANDbutton{
+    display: flex;
+    gap: 10px;
+}
+
+.nameANDbuttons{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.namecoffe > p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.price{
+    color: #574F4D;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}

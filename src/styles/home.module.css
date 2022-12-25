@@ -1,0 +1,133 @@
+.article {
+  padding-left: 80px;
+  padding-top: 80px;
+  display: flex;
+
+  overflow-y: hidden;
+}
+
+.ladoesquerdodapagina {
+  width: 50%;
+}
+
+.ladodireitopagina {
+  width: 50%;
+}
+
+.header > p {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  width: 100%;
+}
+
+.header > span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  width: 100%;
+}
+
+.icons {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.line1 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.elemento1 {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.iconcarrinho {
+  width: 32px;
+  height: 32px;
+  background: #c47f17;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.elemento2 {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.iconbox {
+  width: 32px;
+  height: 32px;
+  background: #574f4d;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.elemento3 {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.icontimer {
+  width: 32px;
+  height: 32px;
+  background: #dbac2c;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.elemento4 {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-left: -12px;
+}
+
+.iconcoffe {
+  width: 32px;
+  height: 32px;
+  background: #8047f8;
+  border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.ListCoffes {
+  padding: 80px;
+}
+
+.Listcoffes > h1 {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.coffesFromListCoffes {
+  gap: 26px;
+  display: flex;
+  flex-wrap: wrap;
+}

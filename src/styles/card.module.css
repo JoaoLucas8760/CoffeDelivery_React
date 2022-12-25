@@ -1,0 +1,113 @@
+.article {
+  width: 250px;
+  height: 310px;
+  background: #f3f2f2;
+  border-radius: 6px 36px;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.imgcoffe {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.typecoffe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 20px;
+  color: #c47f17;
+  background: #f1e9c9;
+  border-radius: 100px;
+  text-transform: uppercase;
+}
+
+.typecoffe > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.infos {
+  align-items: center;
+  justify-content: center;
+}
+
+.infos > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.infos > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #8d8686;
+  text-align: center;
+}
+
+.addcar {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.iconcar {
+  background: #4b2995;
+  border-radius: 6px;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: none;
+}
+
+.inputANDicon {
+  display: flex;
+  gap: 8px;
+}
+
+.price {
+  display: flex;
+  flex-direction: c;
+  gap: 4px;
+  align-items: center;
+}
+
+.price > span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.price > p {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 26px;
+}

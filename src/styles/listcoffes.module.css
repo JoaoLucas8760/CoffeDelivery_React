@@ -1,0 +1,17 @@
+.ListCoffes {
+  padding: 80px;
+}
+
+.Listcoffes > h1 {
+  font-family: "Baloo 2";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.coffesFromListCoffes {
+  gap: 26px;
+  display: flex;
+  flex-wrap: wrap;
+}

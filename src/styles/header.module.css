@@ -1,0 +1,51 @@
+.article{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:30px 70px;
+}
+
+.locationANDshopicon{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.location{
+    width: 142Px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    background: #EBE5F9;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4B2995;
+    gap: 6px;
+    
+}
+
+
+.iconmap{
+    margin-left:10px;
+}
+
+.shopicon{
+    width: 38px;
+    height: 38px;
+    background: #F1E9C9;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.shopicon > a{
+    display: contents;
+    color:  #C47F17;
+}

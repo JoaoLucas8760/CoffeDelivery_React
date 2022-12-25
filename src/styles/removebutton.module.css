@@ -1,0 +1,31 @@
+.article{
+    width: 90px;
+    height: 38px;
+
+
+    background: #E6E5E5;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.article > button{
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #574F4D;
+    gap: 2px;
+    margin-left: -3px;
+}
+
+.icontrash{
+    color: #4B2995;
+}
